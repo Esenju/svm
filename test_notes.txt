@@ -2,8 +2,14 @@ SSL UF
 Peter Mbua
 
 Description: Provide commands to run the design 
-
-python3 tools/run.py tests/dsl/quick_sanity.dsl.yaml
+A. Build and Compile design 
+	python3 tools/run.py tests/dsl/quick_sanity.dsl.yaml
+OR
+	cd ~/systemc_dev/svm
+	cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
+	cmake --build build -j
+	./build/uvm_lite_sim
+	
 
 Function: 
 
@@ -16,3 +22,7 @@ Calls CMake to compile the SystemC framework and create build/sim/uvm_lite_sim
 
 3. Runs the verification simulation 
 Executes the compiled binary with SystemC, orchestrating the sequencer and agents
+
+B. Run generated cpp binary 
+
+	./generated_file (e.g uvm_lite)
