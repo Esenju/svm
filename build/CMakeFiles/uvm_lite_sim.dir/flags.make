@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/dallas0/systemc_dev/svm -I/home/dallas0/systemc_dev/svm/soc -I/home/dallas0/systemc_dev/svm/vkit -I/home/dallas0/systemc_dev/svm/agents -I/usr/local/systemc-3.0.2/include
+CXX_INCLUDES = -I/usr/local/systemc-2.3.3/include -I/home/esenet/svm
 
 CXX_FLAGS = -O3 -DNDEBUG -std=gnu++17
 

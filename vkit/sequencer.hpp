@@ -5,6 +5,7 @@
 #include <map>
 #include <queue>
 #include <filesystem>
+#include <fstream>
 
 namespace vkit {
 struct sequencer : component {
