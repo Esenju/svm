@@ -1,3 +1,0 @@
-/home/esenet/svm/build/CMakeFiles/uvm_lite_sim.dir
-/home/esenet/svm/build/CMakeFiles/edit_cache.dir
-/home/esenet/svm/build/CMakeFiles/rebuild_cache.dir
